@@ -35,7 +35,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(./assets/bg-texture.jpg);
+    background-image: url(./assets/bg-3.jpg);
 }
 
 .container{
@@ -77,11 +77,11 @@ a:hover{
 .btn{
     width:max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-primary-variant);
     transition: var(--transition);
 }
 
@@ -92,7 +92,7 @@ a:hover{
 }
 
 .btn-primary{
-    background: var(--color-primary);
+    background: var(--color-primary-variant);
     color: var(--color-bg);
 }
 
