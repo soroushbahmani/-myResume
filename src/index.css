@@ -67,7 +67,7 @@ section > h2{
     color: var(--color-light);
 }
 a{
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     transition: var(--transition) 
 }
 
@@ -102,7 +102,7 @@ img{
     object-fit: cover;
 }
 
-@media screen and (max-width :1024) {
+@media screen and (max-width :1024px) {
     .container{
         width: var(--container-width-md);
     }
